@@ -73,8 +73,9 @@ function App() {
 
       return () => {
         activeFetch = false;
-      };
+      };      
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[query]);
 
   const handleQueryChange = searchText => {
