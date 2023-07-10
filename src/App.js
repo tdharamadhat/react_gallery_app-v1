@@ -43,7 +43,7 @@ function App() {
   useEffect(() => {
     initializeData();
     return () => {
-      console.log('Load Finish...');
+      //console.log('Load Finish...');  debug
     }
    }, [initializeData]) ;
  
